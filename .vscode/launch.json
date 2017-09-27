@@ -14,7 +14,7 @@
             "program": "${workspaceRoot}/bin/Debug/netcoreapp2.0/NugetLicenseInfo.dll",
             "args": [
                 "--packages=C:\\Repos\\Xamarin\\Mobile\\Mobile.Core\\packages.config,C:\\Repos\\Xamarin\\Mobile\\Mobile.Droid\\packages.config",
-                "--output=C:\\Temp\\licenseInfos.md"
+                "--output=NugetLicenses.md"
             ],
             "cwd": "${workspaceRoot}",
             // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
