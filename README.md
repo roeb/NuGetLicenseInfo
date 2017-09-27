@@ -14,3 +14,6 @@ Source path to the package.config files. You can choose as many as you like. The
 Output folder and filename. The folder does not have to exist.
 
   ```--output=[PATH_TO_MD_FILE.md]```
+
+### Output Sample:
+[NugetLicenses.md](https://github.com/roeb/NuGetLicenseInfo/blob/master/NugetLicenses.md)
