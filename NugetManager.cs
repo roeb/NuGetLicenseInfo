@@ -155,7 +155,7 @@ public class NugetManager
 
         foreach (var license in licenses)
         {
-            builder.AppendLine($"##{license.PackageId}");
+            builder.AppendLine($"## {license.PackageId}");
             builder.AppendLine(license.Content);
             builder.AppendLine(Environment.NewLine);
         }
