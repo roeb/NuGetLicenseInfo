@@ -58,7 +58,7 @@ namespace NugetLicenseInfo
         private static void WriteInfo()
         {
             Console.WriteLine("Parameters:");
-            Console.WriteLine("--packages=[package.config PATH],[package.config PATH]; ...");
+            Console.WriteLine("--packages=[package.config PATH],[package.config PATH], ...");
             Console.WriteLine("--output=[PATH_TO_MD_FILE.md]");
         }
 
